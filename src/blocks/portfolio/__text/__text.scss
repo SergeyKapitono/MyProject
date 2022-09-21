@@ -1,0 +1,5 @@
+.portfolio__text {
+    @include font(400, 2.5rem, 129%);
+    color: black;
+    margin-top: 5rem;
+}

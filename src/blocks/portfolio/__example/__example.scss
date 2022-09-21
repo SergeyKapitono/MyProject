@@ -1,0 +1,10 @@
+.portfolio__example {
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 5rem;
+}
+
+.portfolio__example:last-child {
+    margin-bottom: 10rem;
+}

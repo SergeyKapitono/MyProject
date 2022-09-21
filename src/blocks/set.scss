@@ -24,7 +24,7 @@ body {
   text-rendering: auto;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF ; //цвет фона сайта по умолчанию
+  background-color: #F2F1EF; ; //цвет фона сайта по умолчанию
 }
 
 a,
@@ -121,7 +121,7 @@ input[type="number"] {
 ._container {
   width: 117rem;
   margin: 0 auto;
-  background-color: #F2F1EF;
+  border: .1rem solid black;
 }
 
 @media (max-width: 48em) {
