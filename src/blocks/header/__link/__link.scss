@@ -1,7 +1,8 @@
 .header__link {
-  @include font(400, 1.6rem, 150%);
+  @include font(400, 2.6rem, 150%);
     color: black;
     padding: 3.4rem;
+    color: #F2F1EF;
 }
  .header__link:hover {
    text-decoration: underline;

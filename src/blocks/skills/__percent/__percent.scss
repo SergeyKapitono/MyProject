@@ -1,0 +1,7 @@
+.skills__percent {
+    @include font(600, 2rem, 136%);
+    text-align: right; /* Right-align text */
+    padding-right: 2rem; /* Add some right padding */
+    line-height: 4rem; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}

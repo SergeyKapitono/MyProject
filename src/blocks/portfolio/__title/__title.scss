@@ -1,5 +1,6 @@
 .porfolio__title {
     @include font(600, 4.1rem, 139%);
-    text-align: center;
+    margin-left: 8rem;
     margin-bottom: 5rem;
+    color:rgba(0, 0, 0, 0.758);
 }

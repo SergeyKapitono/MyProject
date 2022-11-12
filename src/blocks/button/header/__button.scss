@@ -1,15 +1,17 @@
 .header__button {
     font-size: 2rem;
-    border: .1rem solid black;
+    border: .1rem solid #F2F1EF;;
     padding: 1rem;
     text-align: center;
     margin-top: 2.7rem;
     margin-right: 8rem;
     margin-bottom: 10rem;
+    color: #F2F1EF;;
+    border-radius: 1rem;
 }
 
 .header__button:hover {
-    background-color: #8dbbf4;
-    color: #FFFFFF;
-    border: .1rem solid #8dbbf4;
+    background-color: #F2F1EF;
+    color: rgba(0, 0, 0, 0.758);
+    border: .1rem solid #F2F1EF;
 }

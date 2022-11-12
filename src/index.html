@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Kapitonov Sergei</title>
 </head>
 
@@ -13,29 +16,15 @@
 
     <header class="header">
         <div class="header-container _container">
-            <div class="header__logo">
-                <img src="img/profile/logo.svg" alt="logo">
-            </div>
-            <div class="header__nav">
-                <a href="#" class="header__link">Главная</a>
-                <a href="#" class="header__link">Портфолио</a>
-                <a href="#" class="header__link">Кантакты</a>
-            </div>
-            <div class="header__button">
-                <button type="button">Написать</button>
-            </div>
-        </div>
+            <div class="header__name">Сергей Капитонов</div>
     </header>
 
     <maine class="maine">
         <div class="main-container _container">
             <div class="main-about">
-                <div class="about__text">
-                    Порофиль
-                </div>
                 <div class="prifile__description">
                     <div class="profile__descript">
-                        Привет! Я Сергей.
+                        <p class="profile__up">Привет!</p>Я Сергей.
                         Начинающий веб-разработчик, специализирующийся на фронтенд, и бекенд-разработке.
                         Опыт работы на всех этапах цикла разработки динамических веб-проектов.
                         Хорошо разбирается в JavaScript, PHP, HTML и CSS.
@@ -51,24 +40,32 @@
     <section class="skills">
         <div class="skills-container _container">
             <div class="skill__title">
-                <h2 class="skill__text">Навыки</h2>
+                <h2 class="skill__text">Профессиональные навыки</h2>
             </div>
             <div class="skill-item__items">
                 <div class="skill-language__language">
                     <span class="language__text">HTML </span>
-                    <strong class="language__per">95%</strong>
+                    <div class="skill__container">
+                        <div class="skills__percent skill__percent--color-html">95%</div>
+                    </div>
                 </div>
                 <div class="skill-language__language">
                     <span class="language__text">CSS </span>
-                    <strong class="language__per">95%</strong>
+                    <div class="skill__container">
+                        <div class="skills__percent skill__percent--color-css">90%</div>
+                    </div>
                 </div>
                 <div class="skill-language__language">
-                    <span class="language__text">Java<br>Script </span>
-                    <strong class="language__per">45%</strong>
+                    <span class="language__text">Java Script </span>
+                    <div class="skill__container">
+                        <div class="skills__percent skill__percent--color-Java">50%</div>
+                    </div>
                 </div>
                 <div class="skill-language__language">
                     <span class="language__text">PHP </span>
-                    <strong class="language__per">20%</strong>
+                    <div class="skill__container">
+                        <div class="skills__percent skill__percent--color-php">20%</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,7 +78,7 @@
             </div>
             <div class="portfolio__example">
                 <div class="porfolio__img">
-                    <img src="img/portfolio/primer.png" alt="">
+                    <img src="img/portfolio/video.png" alt="">
                 </div>
                 <a href="#" class="portfolio__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -96,12 +93,12 @@
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
                 <div class="porfolio__img">
-                    <img src="img/portfolio/primer.png" alt="">
+                    <img src="img/portfolio/relvise.png" alt="">
                 </div>
             </div>
             <div class="portfolio__example">
                 <div class="porfolio__img">
-                    <img src="img/portfolio/primer.png" alt="">
+                    <img src="img/portfolio/o-zone.png" alt="">
                 </div>
                 <a href="#" class="portfolio__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -116,12 +113,12 @@
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
                 <div class="porfolio__img">
-                    <img src="img/portfolio/primer.png" alt="">
+                    <img src="img/portfolio/work.png" alt="">
                 </div>
             </div>
             <div class="portfolio__example">
                 <div class="porfolio__img">
-                    <img src="img/portfolio/primer.png" alt="">
+                    <img src="img/portfolio/batman.png" alt="">
                 </div>
                 <a href="#" class="portfolio__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -132,30 +129,35 @@
         </div>
     </section>
 
-    <section class="contacts">
-        <div class="contacts-container _container">
-            <div class="contacts__title">
-                <h2>Контакты</h2>
-            </div>
-            <div class="contacts__phone">
-                <img src="img/contacts/phone.png" alt="phone">
-                <a href="tel:+79374296926" class="contacts__text">+7-937-429-69-26</a>
-            </div>
-            <div class="contacts__maile">
-                <img src="img/contacts/mail.png" alt="mail">
-                <a href="mailto:k956646@gmail.com" class="contacts__text">k956646@gmail.com</a>
-            </div>
-            <div class="contacts__telegram">
-                <img src="img/contacts/telegram.png" alt="telegram">
-                <a href="#" class="contacts__text">KapitonovSergei</a>
-            </div>
-            <div class="contacts__contact">
-                <button href="" class="contacts__button"></button>
+    <footer class="footer">
+        <div class="footer-container _container">
+            <div class="footer-contacts contacts">
+                <div class="footer__designer">
+                    <p class="designer__title">Designer: Svetlana Kapitonova</p>
+                    <div class="designer__telegram">
+                        <a href="https://t.me/KapitonovSergei" class="contacts__text"><i
+                                class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__phone">
+                        <a href="tel:+79374296926" class="contacts__text"><i class="fa-regular fa-phone"></i></a>
+                    </div>
+                    <div class="contacts__maile">
+                        <a href="mailto:k956646@gmail.com" class="contacts__text"><i
+                                class="fa-regular fa-envelope"></i></a>
+                    </div>
+                    <div class="contacts__github">
+                        <a href="#" class="contacts__text"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="contacts__telegram">
+                        <a href="https://t.me/KapitonovSergei" class="contacts__text"><i
+                                class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-
-    <footer class="footer"></footer>
+    </footer>
 </body>
 
 </html>
