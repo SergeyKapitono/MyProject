@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="js/aos.js"></script>   
     <title>Kapitonov Sergei</title>
 </head>
 
@@ -17,54 +19,55 @@
     <header class="header">
         <div class="header-container _container">
             <div class="header__name">Сергей Капитонов</div>
+        </div>
     </header>
 
-    <maine class="maine">
-        <div class="main-container _container">
-            <div class="main-about">
-                <div class="prifile__description">
+    <section class="maine">
+        <div class="main-container _container porfile">
+            <div class="main-about profile">
+                <div class="profile__description">
                     <div class="profile__descript">
-                        <p class="profile__up">Привет!</p>Я Сергей.
+                        <h2 class="profile__up">Привет!</h2>Я Сергей.
                         Начинающий веб-разработчик, специализирующийся на фронтенд, и бекенд-разработке.
                         Опыт работы на всех этапах цикла разработки динамических веб-проектов.
                         Хорошо разбирается в JavaScript, PHP, HTML и CSS.
                     </div>
                 </div>
             </div>
-            <div class="main__photo">
-                <img src="img/profile/avatar.jpg" alt="avatar" class="main__photo1">
+            <div class="photo">
+                <img src="img/profile/avatar.jpg" alt="avatar" class="photo__img">
             </div>
         </div>
-    </maine>
+    </section>
 
     <section class="skills">
-        <div class="skills-container _container">
-            <div class="skill__title">
+        <div class="skills-container _container skill">
+            <div class="skill__title"> 
                 <h2 class="skill__text">Профессиональные навыки</h2>
             </div>
-            <div class="skill-item__items">
-                <div class="skill-language__language">
+            <div class="skill-item items">
+                <div class="skill-language language">
                     <span class="language__text">HTML </span>
                     <div class="skill__container">
-                        <div class="skills__percent skill__percent--color-html">95%</div>
+                        <div class="skills__percent skill__percent-color-html">95%</div>
                     </div>
                 </div>
-                <div class="skill-language__language">
+                <div class="skill-language language">
                     <span class="language__text">CSS </span>
                     <div class="skill__container">
-                        <div class="skills__percent skill__percent--color-css">90%</div>
+                        <div class="skills__percent skill__percent-color-css">90%</div>
                     </div>
                 </div>
-                <div class="skill-language__language">
+                <div class="skill-language language">
                     <span class="language__text">Java Script </span>
                     <div class="skill__container">
-                        <div class="skills__percent skill__percent--color-Java">50%</div>
+                        <div class="skills__percent skill__percent-color-Java">50%</div>
                     </div>
                 </div>
-                <div class="skill-language__language">
+                <div class="skill-language language">
                     <span class="language__text">PHP </span>
                     <div class="skill__container">
-                        <div class="skills__percent skill__percent--color-php">20%</div>
+                        <div class="skills__percent skill__percent-color-php">20%</div>
                     </div>
                 </div>
             </div>
@@ -72,55 +75,55 @@
     </section>
 
     <section class="portfolio">
-        <div class="portfolio-container _container">
+        <div class="portfolio-container _container porfolio">
             <div class="porfolio__title">
-                <h2>Портфолио</h2>
+                <h2 data-aos="fade-left">Портфолио</h2>
             </div>
             <div class="portfolio__example">
-                <div class="porfolio__img">
+                <div class="porfolio__img" data-aos="fade-right">
                     <img src="img/portfolio/video.png" alt="">
                 </div>
-                <a href="#" class="portfolio__text">
+                <a href="#" class="portfolio__text" data-aos="fade-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quas maiores.
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
             </div>
             <div class="portfolio__example">
-                <a href="#" class="portfolio__text">
+                <a href="#" class="portfolio__text" data-aos="fade-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quas maiores.
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
-                <div class="porfolio__img">
+                <div class="porfolio__img"  data-aos="fade-left">
                     <img src="img/portfolio/relvise.png" alt="">
                 </div>
             </div>
             <div class="portfolio__example">
-                <div class="porfolio__img">
+                <div class="porfolio__img" data-aos="fade-right">
                     <img src="img/portfolio/o-zone.png" alt="">
                 </div>
-                <a href="#" class="portfolio__text">
+                <a href="#" class="portfolio__text" data-aos="fade-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quas maiores.
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
             </div>
             <div class="portfolio__example">
-                <a href="#" class="portfolio__text">
+                <a href="#" class="portfolio__text" data-aos="fade-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quas maiores.
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
                 </a>
-                <div class="porfolio__img">
+                <div class="porfolio__img" data-aos="fade-left">
                     <img src="img/portfolio/work.png" alt="">
                 </div>
             </div>
             <div class="portfolio__example">
-                <div class="porfolio__img">
+                <div class="porfolio__img" data-aos="fade-right">
                     <img src="img/portfolio/batman.png" alt="">
                 </div>
-                <a href="#" class="portfolio__text">
+                <a href="#" class="portfolio__text" data-aos="fade-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quas maiores.
                     Magni deleniti accusantium error labore numquam enim sit eligendi?
@@ -132,7 +135,7 @@
     <footer class="footer">
         <div class="footer-container _container">
             <div class="footer-contacts contacts">
-                <div class="footer__designer">
+                <div class="footer__designer designer">
                     <p class="designer__title">Designer: Svetlana Kapitonova</p>
                     <div class="designer__telegram">
                         <a href="https://t.me/KapitonovSergei" class="contacts__text"><i
@@ -158,6 +161,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
