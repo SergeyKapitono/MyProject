@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 48em) {
+    .profile {
+        flex-wrap: wrap;
+    }
+}

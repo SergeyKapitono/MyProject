@@ -3,5 +3,13 @@
     margin-bottom: 5rem;
     margin-left: 8rem;
     color: rgba(0, 0, 0, 0.758);
+    // color: #808080;
     word-spacing: .5rem;
+}
+
+@media (max-width: 48em) {
+    .skill__text {
+        text-align: center;
+        margin-left: 14rem;
+    }
 }

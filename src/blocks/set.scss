@@ -1,12 +1,12 @@
-*, 
-*::after, 
+*,
+*::after,
 *::before {
   box-sizing: border-box;
 }
 
 *:focus:not(:focus-visible) {
   outline: none;
-} 
+}
 
 html {
   font-size: 0.520835vw; //на разрешение 1920 0.520835vw === 10px
@@ -18,14 +18,18 @@ html {
   padding: 0;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   font-style: normal;
   font-weight: normal;
   text-rendering: auto;
   margin: 0;
   padding: 0;
-  background-color: #F2F1EF; ; //цвет фона сайта по умолчанию
-  // background-color: rgba(0, 0, 0, 0.758);
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-color: #F2F1EF; //цвет фона сайта по умолчанию
 }
 
 a,
@@ -33,7 +37,8 @@ a:hover {
   text-decoration: none;
 }
 
-input, textarea {
+input,
+textarea {
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -46,7 +51,10 @@ button {
   cursor: pointer;
 }
 
-button, input, a, textarea {
+button,
+input,
+a,
+textarea {
   outline: none;
   cursor: pointer;
   font: inherit;
@@ -54,6 +62,7 @@ button, input, a, textarea {
   &:focus {
     outline: none;
   }
+
   &:active {
     outline: none;
   }
@@ -65,11 +74,11 @@ img {
   object-fit: contain;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   font: inherit;
   margin: 0;
@@ -90,7 +99,7 @@ samp {
 
 button {
   border: none;
-  color:inherit;
+  color: inherit;
   font: inherit;
   text-align: inherit;
   padding: 0;
@@ -115,14 +124,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
 ._container {
   width: 117rem;
   margin: 0 auto;
-  // border: .1rem solid black;
 }
 
 @media (max-width: 48em) {
@@ -131,6 +135,10 @@ input[type="number"] {
     font-size: 1.5625vw;
     // font-size: (100/320) * 5vw; // где 320 это ширина моб версии макета
     -webkit-text-size-adjust: none;
+  }
+
+  body {
+    background-size: 300%;
   }
 
   ._container {

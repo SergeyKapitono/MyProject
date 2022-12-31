@@ -4,3 +4,9 @@
     margin-bottom: 5rem;
     color:rgba(0, 0, 0, 0.758);
 }
+
+@media (max-width: 48em) {
+    .porfolio__title {
+        text-align: center;
+    }
+}

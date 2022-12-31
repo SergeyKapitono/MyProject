@@ -1,3 +1,12 @@
 .photo__img {
     border-radius: 3.5rem;
 }
+
+@media (max-width: 48em) {
+    .photo__img {
+        align-items: center;
+        margin-left: 14rem;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}

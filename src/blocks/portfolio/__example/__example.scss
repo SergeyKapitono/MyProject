@@ -8,3 +8,9 @@
 .portfolio__example:last-child {
     margin-bottom: 10rem;
 }
+
+@media (max-width: 48em) {
+    ._example {
+        display: block;
+    }
+}

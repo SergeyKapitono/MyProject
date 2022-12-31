@@ -7,3 +7,38 @@
 .portfolio__text:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 48em) {
+    ._text1 {  
+        @include font(400, 3.5rem, 129%);
+        display: block;
+        width: 133%;
+        text-align: center;
+    }
+    ._text2 {  
+        @include font(400, 3.5rem, 129%);
+        display: block;
+        width: 130%;
+        text-align: center;
+    }
+    ._text3 {  
+        @include font(400, 3.5rem, 129%);
+        display: block;
+        width: 130%;
+        text-align: center;
+    }
+
+    ._text4 {  
+        @include font(400, 3.5rem, 129%);
+        display: block;
+        width: 130%;
+        text-align: center;
+    }
+
+    ._text5 {  
+        @include font(400, 3.5rem, 129%);
+        display: block;
+        width: 130%;
+        text-align: center;
+    }
+}
