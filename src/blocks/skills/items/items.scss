@@ -1,4 +1,14 @@
 .items {
     margin-bottom: 10rem;
-    margin-left: 8rem;
+}
+
+
+@media (max-width: 48em) {
+    .items {
+        width: 123%;
+        margin-bottom: 10rem;
+        // text-align: center;
+        // align-items: center;
+        padding: 5rem;
+    }
 }

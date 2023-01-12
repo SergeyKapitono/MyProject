@@ -1,7 +1,4 @@
 .portfolio__example {
-    display: flex;
-    margin-left: 8rem;
-    margin-right: 8rem;
     margin-bottom: 5rem;
 }
 
@@ -11,6 +8,13 @@
 
 @media (max-width: 48em) {
     ._example {
-        display: block;
+        width: 123%;
+        text-align: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    ._example img {
+        width: 100%;
     }
 }

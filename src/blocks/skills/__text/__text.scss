@@ -1,15 +1,16 @@
 .skill__text {
     @include font(600, 4.1rem, 139%);
-    margin-bottom: 5rem;
-    margin-left: 8rem;
+    margin-bottom: 10rem;
     color: rgba(0, 0, 0, 0.758);
-    // color: #808080;
     word-spacing: .5rem;
 }
 
 @media (max-width: 48em) {
     .skill__text {
+        width: 123%;
+        margin-bottom: 5rem;
         text-align: center;
-        margin-left: 14rem;
+        align-items: center;
+        padding: 5rem;
     }
 }

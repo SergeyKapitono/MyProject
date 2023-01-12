@@ -1,15 +1,14 @@
 .profile__descript {
     @include font(400, 2.5rem, 129%);
-    margin-top: 3rem;
-    margin-left: 8rem;
     width: 65rem;
+    margin-bottom: 10rem;
 }
 
 @media (max-width: 48em) {
     .profile__descript {
-        width: 100%;
+        width: 123%;
         text-align: center;
-        margin-top: 0;
-        margin-bottom: 2rem;
+        align-items: center;
+        padding: 5rem;
     }
 }

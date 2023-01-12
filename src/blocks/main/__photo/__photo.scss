@@ -4,9 +4,10 @@
 
 @media (max-width: 48em) {
     .photo__img {
+        width: 123%;
+        margin-bottom: 10rem;
+        text-align: center;
         align-items: center;
-        margin-left: 14rem;
-        width: 80%;
-        margin-bottom: 2rem;
+        padding: 5rem;
     }
 }

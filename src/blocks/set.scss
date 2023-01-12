@@ -25,10 +25,6 @@ body {
   text-rendering: auto;
   margin: 0;
   padding: 0;
-  background-image: url("../img/back.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-attachment: fixed;
   background-color: #F2F1EF; //цвет фона сайта по умолчанию
 }
 
@@ -136,11 +132,6 @@ input[type="number"]::-webkit-outer-spin-button {
     // font-size: (100/320) * 5vw; // где 320 это ширина моб версии макета
     -webkit-text-size-adjust: none;
   }
-
-  body {
-    background-size: 300%;
-  }
-
   ._container {
     padding: 0 3.2rem;
     width: 100%;
