@@ -1,6 +1,5 @@
 .about__text {
     @include font(600, 5.6rem, 115%);
-    margin-left: 8rem;
-    margin-bottom: 5rem;
+    margin: 0 0 5rem 8rem;
     color: rgba(0, 0, 0, 0.758);
 }

@@ -1,0 +1,12 @@
+.designer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 48em) {
+    .designer {
+        margin-top: -2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.designer__title {
+    display: flex;
+    @include font(400, 1.5rem, 180%);
+    color: #F2F1EF;
+    margin: 0 3rem 0.5rem 0;
+}
+
+.designer__title p:last-child {
+    margin-left: 1rem;
+}
+
+@media (max-width: 48em) {
+    .designer__title {
+        display: block;
+        margin-right: 2rem;
+    }
+}
